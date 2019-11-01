@@ -3,4 +3,5 @@
 # mikko
 mikko Neural Processing Toolkit
 
-Coming soon...
+Coming soon. See [master](https://github.com/NurmikkoLab-Brown/mikko) for updates.
+
