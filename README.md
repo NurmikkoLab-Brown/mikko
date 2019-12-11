@@ -84,7 +84,7 @@ Results will be saved to the tmp_dockex_path.
 <a name="Documentation"></a>
 ## 2. Documentation
 
-Each module contains a README that defines its purpose and required JSON configuration file.
+Documentation can be found [here](https://NurmikkoLab-Brown.github.io/mikko/).
 
 <a name="Citing"></a>
 ## 4. Citing mikko
