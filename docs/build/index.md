@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/210954471.svg)](https://zenodo.org/badge/latestdoi/210954471)
-
 # mikko Neural Processing Toolkit
 
 Mikko ("meeko") is a neural processing toolkit designed for large-scale computational neuroscience experiments. This 
