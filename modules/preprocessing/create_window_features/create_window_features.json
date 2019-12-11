@@ -1,0 +1,17 @@
+{
+  "params": {
+    "samples_before": "DOCKEX_REQUIRED",
+    "samples_after": "DOCKEX_REQUIRED",
+    "use_current_sample": "DOCKEX_REQUIRED"
+},
+  "input_pathnames": {
+    "features_npy": "DOCKEX_REQUIRED",
+    "targets_npy": "DOCKEX_REQUIRED"
+  },
+  "output_pathnames": {
+    "window_features_npy": "_window_features.npy",
+    "window_targets_npy": "_window_targets.npy",
+    "flat_window_features_npy": "_flat_window_features.npy",
+    "flat_window_targets_npy": "_flat_window_targets.npy"
+  }
+}

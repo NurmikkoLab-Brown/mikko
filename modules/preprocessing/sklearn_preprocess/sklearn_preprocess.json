@@ -1,0 +1,18 @@
+{
+  "params": {
+    "class": null,
+    "kwargs": null,
+    "method": "DOCKEX_REQUIRED",
+    "train_decimal": null,
+    "save_model": false,
+    "random_seed": 1337
+},
+  "input_pathnames": {
+    "X_npy": "DOCKEX_REQUIRED",
+    "model_joblib": null
+  },
+  "output_pathnames": {
+    "output_npy": "_output.npy",
+    "model_joblib": "_model.joblib"
+  }
+}

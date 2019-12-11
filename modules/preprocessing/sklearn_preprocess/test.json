@@ -1,0 +1,23 @@
+{
+  "name": "sklearn_preprocess_0",
+  "params": {
+    "class": "StandardScaler",
+    "kwargs": {
+      "copy": true,
+      "with_mean": true,
+      "with_std": true
+    },
+    "method": "fit_transform",
+    "train_decimal": 0.7,
+    "save_model": true,
+    "random_seed": 1337
+},
+  "input_pathnames": {
+    "X_npy": "/tmp/data/X.npy",
+    "model_joblib": null
+  },
+  "output_pathnames": {
+    "output_npy": "/tmp/data/output.npy",
+    "model_joblib": "/tmp/data/model.joblib"
+  }
+}

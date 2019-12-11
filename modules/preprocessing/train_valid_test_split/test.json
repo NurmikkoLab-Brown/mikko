@@ -1,0 +1,20 @@
+{
+  "name": "train_valid_test_split_0",
+  "params": {
+    "train_decimal": 0.8,
+    "valid_decimal": 0.1,
+    "test_decimal": 0.1
+},
+  "input_pathnames": {
+    "features_npy": "/tmp/data/features.npy",
+    "targets_npy": "/tmp/data/targets.npy"
+  },
+  "output_pathnames": {
+    "features_train_npy": "/tmp/data/features_train.npy",
+    "targets_train_npy": "/tmp/data/targets_train.npy",
+    "features_valid_npy": "/tmp/data/features_valid.npy",
+    "targets_valid_npy": "/tmp/data/targets_valid.npy",
+    "features_test_npy": "/tmp/data/features_test.npy",
+    "targets_test_npy": "/tmp/data/targets_test.npy"
+  }
+}

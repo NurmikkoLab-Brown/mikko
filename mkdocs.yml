@@ -1,0 +1,37 @@
+site_name: mikko
+site_author: Nurmikko Lab
+
+repo_name: mikko
+repo_url: https://github.com/NurmikkoLab-Brown/mikko
+edit_uri: ""
+
+docs_dir: 'docs/build'
+
+nav:
+    - Home: 'index.md'
+    - Analysis:
+        - 'regression_metrics': 'analysis_regression_metrics.md'
+    - Decoders:
+        - 'Kalman filter': 'decoders_kalman_filter.md'
+        - 'Keras':
+            - 'Dense NN': 'decoders_keras_dense_nn.md'
+            - 'GRU RNN': 'decoders_keras_gru_rnn.md'
+            - 'LSTM RNN': 'decoders_keras_lstm_rnn.md'
+            - 'Simple RNN': 'decoders_keras_simple_rnn.md'
+        - 'Wiener cascade': 'decoders_wiener_cascade.md'
+        - 'Wiener filter': 'decoders_wiener_filter.md'
+    - Preprocessing:
+      - 'create_window_features': 'preprocessing_create_window_features.md'
+      - 'sklearn_preprocess': 'preprocessing_sklearn_preprocess.md'
+      - 'train_valid_test_split': 'preprocessing_train_valid_test_split.md'
+    - Tasks:
+        - 'Auditory':
+            - 'Librosa Mel-Transformer': 'tasks_auditory_librosa_mel_transformer.md'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'black'
+    accent: 'red'
+  favicon: 'img/favicon.ico'
+  logo: 'img/brain.png'

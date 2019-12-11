@@ -1,0 +1,27 @@
+{
+  "params": {
+    "method": "DOCKEX_REQUIRED",
+    "sampling_rate": null,
+    "ref_level_db": 20,
+    "power": 1.5,
+    "griffin_lim_iters": 60,
+    "fft_size": 2048,
+    "num_mels": 80,
+    "preemphasis": 0.97,
+    "max_abs_value": 4,
+    "min_level_db": -100,
+    "frame_shift_ms": 20.0,
+    "random_seed": 1337,
+    "save_transformer": false
+},
+  "input_pathnames": {
+    "input": "DOCKEX_REQUIRED",
+    "transformer_joblib": null
+  },
+  "output_pathnames": {
+    "mel_h5": "_mel.h5",
+    "mel_npy": "_mel.npy",
+    "audio_wav": "_audio.wav",
+    "transformer_joblib": "_transformer.joblib"
+  }
+}

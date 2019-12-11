@@ -1,0 +1,25 @@
+{
+  "params": {
+    "method": "DOCKEX_REQUIRED",
+    "units": "DOCKEX_REQUIRED",
+    "epochs": 2048,
+    "batch_size": null,
+    "save_model": false,
+    "random_seed": 1337
+  },
+  "input_pathnames": {
+    "X_train_npy": null,
+    "y_train_npy": null,
+    "X_valid_npy": null,
+    "y_valid_npy": null,
+    "X_test_npy": null,
+    "y_test_npy": null,
+    "model_joblib": null
+  },
+  "output_pathnames": {
+    "predict_train_npy": "_predict_train.npy",
+    "predict_valid_npy": "_predict_valid.npy",
+    "predict_test_npy": "_predict_test.npy",
+    "model_keras": "_model.keras"
+  }
+}

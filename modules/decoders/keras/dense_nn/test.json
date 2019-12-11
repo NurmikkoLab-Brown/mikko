@@ -1,0 +1,26 @@
+{
+  "name": "dense_nn_0",
+  "params": {
+    "method": "fit_predict",
+    "units": 2048,
+    "epochs": 2048,
+    "batch_size": null,
+    "save_model": false,
+    "random_seed": 1337
+  },
+  "input_pathnames": {
+    "X_train_npy": "/tmp/data/X_train.npy",
+    "y_train_npy": "/tmp/data/y_train.npy",
+    "X_valid_npy": "/tmp/data/X_valid.npy",
+    "y_valid_npy": "/tmp/data/y_valid.npy",
+    "X_test_npy": "/tmp/data/X_test.npy",
+    "y_test_npy": "/tmp/data/y_test.npy",
+    "model_joblib": null
+  },
+  "output_pathnames": {
+    "predict_train_npy": "/tmp/data/predict_train.npy",
+    "predict_valid_npy": "/tmp/data/predict_valid.npy",
+    "predict_test_npy": "/tmp/data/predict_test.npy",
+    "model_joblib": "/tmp/data/model.joblib"
+  }
+}

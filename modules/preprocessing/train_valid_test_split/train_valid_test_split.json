@@ -1,0 +1,19 @@
+{
+  "params": {
+    "train_decimal": "DOCKEX_REQUIRED",
+    "valid_decimal": "DOCKEX_REQUIRED",
+    "test_decimal": "DOCKEX_REQUIRED"
+},
+  "input_pathnames": {
+    "features_npy": "DOCKEX_REQUIRED",
+    "targets_npy": "DOCKEX_REQUIRED"
+  },
+  "output_pathnames": {
+    "features_train_npy": "_features_train.npy",
+    "targets_train_npy": "_targets_train.npy",
+    "features_valid_npy": "_features_valid.npy",
+    "targets_valid_npy": "_targets_valid.npy",
+    "features_test_npy": "_features_test.npy",
+    "targets_test_npy": "_targets_test.npy"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "create_window_features_0",
+  "params": {
+    "samples_before": 8,
+    "samples_after": 8,
+    "use_current_sample": true
+},
+  "input_pathnames": {
+    "features_npy": "/tmp/data/features.npy",
+    "targets_npy": "/tmp/data/targets.npy"
+  },
+  "output_pathnames": {
+    "window_features_npy": "/tmp/data/window_features.npy",
+    "window_targets_npy": "/tmp/data/window_targets.npy",
+    "flat_window_features_npy": "/tmp/data/flat_window_features.npy",
+    "flat_window_targets_npy": "/tmp/data/flat_window_targets.npy"
+  }
+}

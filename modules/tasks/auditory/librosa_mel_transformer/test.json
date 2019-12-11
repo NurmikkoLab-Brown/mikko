@@ -1,0 +1,28 @@
+{
+  "name": "librosa_mel_transformer_8",
+  "params": {
+    "sampling_rate": 30000.0,
+    "ref_level_db": 20,
+    "power": 1.5,
+    "griffin_lim_iters": 60,
+    "fft_size": 2048,
+    "num_mels": 128,
+    "preemphasis": 0.97,
+    "max_abs_value": 5,
+    "min_level_db": -100,
+    "frame_shift_ms": 40.0,
+    "random_seed": 1337,
+    "method": "inverse_mel_transform",
+    "save_transformer": true
+},
+  "input_pathnames": {
+    "input": "/tmp/data/sklearn_preprocess/sklearn_preprocess_6_output.npy",
+    "transformer_joblib": "/tmp/data/librosa_mel_transformer/librosa_mel_transformer_8_transformer.joblib"
+  },
+  "output_pathnames": {
+    "mel_h5": "/tmp/data/librosa_mel_transformer/librosa_mel_transformer_8_mel.h5",
+    "mel_npy": "/tmp/data/librosa_mel_transformer/librosa_mel_transformer_8_mel.npy",
+    "audio_wav": "/tmp/data/librosa_mel_transformer/librosa_mel_transformer_8_audio.wav",
+    "transformer_joblib": "/tmp/data/librosa_mel_transformer/librosa_mel_transformer_8_transformer.joblib"
+  }
+}

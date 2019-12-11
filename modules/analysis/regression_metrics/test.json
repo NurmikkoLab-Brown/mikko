@@ -1,0 +1,15 @@
+{
+  "name": "regression_metrics_0",
+  "params": {},
+  "input_pathnames": {
+    "targets_train_npy": "/tmp/data/targets_train.npy",
+    "predict_train_npy": "/tmp/data/predict_train.npy",
+    "targets_valid_npy": "/tmp/data/targets_valid.npy",
+    "predict_valid_npy": "/tmp/data/predict_valid.npy",
+    "targets_test_npy": "/tmp/data/targets_test.npy",
+    "predict_test_npy": "/tmp/data/predict_test.npy"
+  },
+  "output_pathnames": {
+    "csv": "/tmp/data/regression_metrics_0.csv"
+  }
+}

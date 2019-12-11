@@ -1,0 +1,14 @@
+{
+  "params": {},
+  "input_pathnames": {
+    "targets_train_npy": "DOCKEX_REQUIRED",
+    "predict_train_npy": "DOCKEX_REQUIRED",
+    "targets_valid_npy": "DOCKEX_REQUIRED",
+    "predict_valid_npy": "DOCKEX_REQUIRED",
+    "targets_test_npy": "DOCKEX_REQUIRED",
+    "predict_test_npy": "DOCKEX_REQUIRED"
+  },
+  "output_pathnames": {
+    "csv": ".csv"
+  }
+}
