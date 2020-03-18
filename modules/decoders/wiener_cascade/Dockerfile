@@ -7,7 +7,8 @@ RUN conda install --file /home/wiener_cascade/requirements.txt
 
 COPY modules/decoders/wiener_cascade /home/wiener_cascade
 
-RUN git clone https://github.com/ChrisHeelan/base_dockex.git
+RUN git clone https://github.com/ChrisHeelan/base_dockex.git && \
+    git -C /home/wiener_cascade/base_dockex checkout 913c732d12e647782b5a3628cb6529147611f171
 
 ENV PYTHONPATH /home/wiener_cascade
 

@@ -51,7 +51,7 @@ class CreateWindowFeatures(BaseDockex):
         self.features = np.load(self.input_pathnames["features_npy"])
         self.targets = np.load(self.input_pathnames["targets_npy"])
 
-        if self.features.shape[0] != self.features.shape[0]:
+        if self.features.shape[0] != self.targets.shape[0]:
             raise Exception("Features and targets must have the same number of samples (axis 0)")
 
     def generate_window_arrays(self):

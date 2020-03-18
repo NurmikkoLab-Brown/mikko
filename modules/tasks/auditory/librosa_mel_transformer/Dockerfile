@@ -9,7 +9,8 @@ RUN conda config --add channels conda-forge && \
 
 COPY modules/tasks/auditory/librosa_mel_transformer /home/librosa_mel_transformer
 
-RUN git clone https://github.com/ChrisHeelan/base_dockex.git
+RUN git clone https://github.com/ChrisHeelan/base_dockex.git && \
+    git -C /home/librosa_mel_transformer/base_dockex checkout 913c732d12e647782b5a3628cb6529147611f171
 
 ENV PYTHONPATH /home/librosa_mel_transformer
 

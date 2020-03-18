@@ -7,7 +7,8 @@ RUN conda install --file /home/create_window_features/requirements.txt
 
 COPY modules/preprocessing/create_window_features /home/create_window_features
 
-RUN git clone https://github.com/ChrisHeelan/base_dockex.git
+RUN git clone https://github.com/ChrisHeelan/base_dockex.git && \
+    git -C /home/create_window_features/base_dockex checkout 913c732d12e647782b5a3628cb6529147611f171
 
 ENV PYTHONPATH /home/create_window_features
 
